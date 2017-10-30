@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <img src="/cedrus_logo.svg" alt="Cedrus">
+    <img class="logo" src="/cedrus_logo.svg" alt="Cedrus">
   </section>
 </template>
 
@@ -18,5 +18,10 @@ export default {
   align-items: center;
   text-align: center;
   background-color: #3C54A5;
+}
+
+.container .logo {
+  max-width: 100%;
+  padding: 0 50px;
 }
 </style>
